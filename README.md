@@ -1,5 +1,7 @@
 # YSQPhotoBrowserViewController
 
+###iOS图片浏览器，支持异步显示图片，支持缩放，支持删除反馈。
+
 ![](./1.png)
 
 ## Usage
