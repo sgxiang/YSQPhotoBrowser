@@ -1,5 +1,6 @@
 # YSQPhotoBrowserViewController
 
+![](./1.png)
 
 ## Usage
 
