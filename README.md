@@ -44,10 +44,12 @@
     
     NSInteger tag = sender.view.tag;
     __weak ViewController *that = self;
+    //==========================================
     YSQPhotoBrowserViewController *browser = [[YSQPhotoBrowserViewController alloc]initWithPhotos:self.photos selectIndex:tag finish:^{
         [that reloadImage];
     }];
     [self.navigationController pushViewController:browser animated:YES];
+    //==========================================
     
 }
 
